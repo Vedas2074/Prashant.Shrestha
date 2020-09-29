@@ -1,0 +1,13 @@
+In terminal
+dotnet new console -n CSharpBasics
+cd CSharpBasics
+dotnet build
+dotnet run
+
+========================================================================
+Console.Write("Hello World!"); ==> Gives the output in same line
+Console.WriteLine("Hello World!"); ==> Gives output in another line breaks down to next line
+
+Console.Write("Enter your name:"); ==> Taking Input
+string name = Console.ReadLine(); ==> Reading the string name
+Console.WriteLine("Hello " + name); ==> Printing the enter name with the combined string.
